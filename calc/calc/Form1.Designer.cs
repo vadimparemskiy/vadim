@@ -37,6 +37,7 @@ namespace calc
             this.multyplication = new System.Windows.Forms.Button();
             this.division = new System.Windows.Forms.Button();
             this.textBox3 = new System.Windows.Forms.TextBox();
+            this.Sin = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -100,11 +101,22 @@ namespace calc
             this.textBox3.Size = new System.Drawing.Size(64, 20);
             this.textBox3.TabIndex = 7;
             // 
+            // Sin
+            // 
+            this.Sin.Location = new System.Drawing.Point(39, 159);
+            this.Sin.Name = "Sin";
+            this.Sin.Size = new System.Drawing.Size(75, 23);
+            this.Sin.TabIndex = 8;
+            this.Sin.Text = "Sin";
+            this.Sin.UseVisualStyleBackColor = true;
+            this.Sin.Click += new System.EventHandler(this.Click1);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(254, 262);
+            this.Controls.Add(this.Sin);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.division);
@@ -129,6 +141,7 @@ namespace calc
         private System.Windows.Forms.Button multyplication;
         private System.Windows.Forms.Button division;
         private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Button Sin;
     }
 }
 
