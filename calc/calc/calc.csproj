@@ -55,6 +55,7 @@
     </Compile>
     <Compile Include="CalculateTwoFactory.cs" />
     <Compile Include="Interface.cs" />
+<<<<<<< HEAD
     <Compile Include="Log.cs" />
     <Compile Include="multyplication.cs" />
     <Compile Include="Oneargument.cs" />
@@ -64,6 +65,12 @@
     <Compile Include="Sin.cs" />
     <Compile Include="sqrt.cs" />
     <Compile Include="Cos.cs" />
+=======
+    <Compile Include="multyplication.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sabtraction.cs" />
+>>>>>>> 953a64d8621ef88e70f4e91832f84556f8a7f957
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
